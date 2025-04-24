@@ -4,6 +4,8 @@ This tool is designed to significantly improve the efficiency of cyber security 
 
 Built with Tkinter for the GUI and Pillow for image manipulation, this desktop application streamlines the process of gathering visual evidence and updating tickets, allowing analysts to focus more on the investigation itself.
 
+![Screenshot Tool](Screenshots/Dummy%20Data.png)
+
 ## Features
 
 *   **Efficient Screen Capture:** Quickly select and capture specific areas of your screen.
@@ -11,8 +13,6 @@ Built with Tkinter for the GUI and Pillow for image manipulation, this desktop a
 *   **Undo/Redo:** Easily correct mistakes with comprehensive undo and redo functionality.
 *   **Flexible Saving:** Save annotated screenshots locally to a designated incident folder or any chosen location.
 *   **ServiceNow Integration:** Seamlessly look up Incidents/SIRs, upload screenshots as attachments, and add work notes directly from the application.
-
-![Dummy Screenshot](Screenshots/Dummy%20Data.png)
 
 ![Login Screenshot](Screenshots/SNOW%20LoginAuth.png)
 
