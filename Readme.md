@@ -12,6 +12,9 @@ Built with Tkinter for the GUI and Pillow for image manipulation, this desktop a
 *   **Flexible Saving:** Save annotated screenshots locally to a designated incident folder or any chosen location.
 *   **ServiceNow Integration:** Seamlessly look up Incidents/SIRs, upload screenshots as attachments, and add work notes directly from the application.
 
+![Dummy Screenshot](Screenshots/Dummy%20Data.png)
+
+
 ## Usage
 
 1.  **Start the application:** Run `python app.py`.
