@@ -1,6 +1,6 @@
 # SOC Screenshot & Annotation Tool
 
-This tool is designed to significantly improve the efficiency of Security Operations Center (SOC) analysts when working on incidents. By providing a quick and easy way to capture relevant screen regions, annotate them with important details, and directly upload them as attachments and work notes to ServiceNow Incidents or SIRs, analysts can save valuable time and ensure accurate documentation during incident response.
+This tool is designed to significantly improve the efficiency of cyber security analysts when working on incidents. By providing a quick and easy way to capture relevant screen regions, annotate them with important details, and directly upload them as attachments and work notes to ServiceNow Incidents or SIRs, analysts can save valuable time and ensure accurate documentation during incident response.
 
 Built with Tkinter for the GUI and Pillow for image manipulation, this desktop application streamlines the process of gathering visual evidence and updating tickets, allowing analysts to focus more on the investigation itself.
 
@@ -11,25 +11,6 @@ Built with Tkinter for the GUI and Pillow for image manipulation, this desktop a
 *   **Undo/Redo:** Easily correct mistakes with comprehensive undo and redo functionality.
 *   **Flexible Saving:** Save annotated screenshots locally to a designated incident folder or any chosen location.
 *   **ServiceNow Integration:** Seamlessly look up Incidents/SIRs, upload screenshots as attachments, and add work notes directly from the application.
-
-## Setup
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/soc-screenshot-tool.git
-    cd soc-screenshot-tool
-    ```
-    *(Note: Replace `https://github.com/yourusername/soc-screenshot-tool.git` with the actual repository URL)*
-
-2.  **Install dependencies:**
-    ```bash
-    pip install Pillow requests
-    ```
-
-3.  **Run the application:**
-    ```bash
-    python app.py
-    ```
 
 ## Usage
 
@@ -126,7 +107,7 @@ graph TD
     E --> F[Click Verify & Save];
     F --> G[Verify Credentials via API];
     G --> H{Verification Successful?};
-    H -- Yes --> I[Update ServiceNow Status (Configured)];
+    H -- Yes --> I[Update ServiceNow Status (Configured)]
     H -- No --> J[Show Error Status];
     I --> B;
     J --> E;
@@ -149,18 +130,3 @@ graph TD
     V --> U;
     U --> W[Process Complete];
 ```
-
-## Contribution Guidelines
-
-Contributions are welcome! Please follow these steps:
-
-1.  Fork the repository.
-2.  Create a new branch for your feature or bugfix.
-3.  Make your changes and ensure the code adheres to the existing style.
-4.  Write clear commit messages.
-5.  Submit a pull request with a description of your changes.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-*(Note: You may need to create a LICENSE file if one doesn't exist)*
