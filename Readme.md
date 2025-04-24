@@ -14,9 +14,9 @@ Built with Tkinter for the GUI and Pillow for image manipulation, this desktop a
 
 ![Dummy Screenshot](Screenshots/Dummy%20Data.png)
 
-![Dummy Screenshot](Screenshots/SNOW%LoginAuth.png)
+![Login Screenshot](Screenshots/SNOW%20LoginAuth.png)
 
-![Dummy Screenshot](Screenshots/Validates%INC.png)
+![Validate Screenshot](Screenshots/Validates%20INC.png)
 
 ## Usage
 
