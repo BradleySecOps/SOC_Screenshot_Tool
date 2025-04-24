@@ -1,0 +1,23 @@
+# Ignore Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+
+# Ignore incident folders created by the application
+INCtest/
+*.png # Assuming screenshots are saved as .png, adjust if needed
+*.jpg # Assuming screenshots are saved as .jpg, adjust if needed
+
+# Ignore IDE specific files
+.vscode/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
