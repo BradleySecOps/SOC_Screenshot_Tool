@@ -107,8 +107,8 @@ graph TD
     E --> F[Click Verify & Save];
     F --> G[Verify Credentials via API];
     G --> H{Verification Successful?};
-    H -- Yes --> I[Update ServiceNow Status (Configured)]
-    I --> B;
+    H -- Yes --> I["Update ServiceNow Status(Configured)"];
+    I --> K;
     H -- No --> J[Show Error Status];
     J --> E;
 
