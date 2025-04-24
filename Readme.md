@@ -13,7 +13,8 @@ Built with Tkinter for the GUI and Pillow for image manipulation, this desktop a
 *   **ServiceNow Integration:** Seamlessly look up Incidents/SIRs, upload screenshots as attachments, and add work notes directly from the application.
 
 ![Dummy Screenshot](Screenshots/Dummy%20Data.png)
-
+![Dummy Screenshot](Screenshots/SNOW%LoginAuth.png)
+![Dummy Screenshot](Screenshots/Validates%INC.png)
 
 ## Usage
 
