@@ -1,3 +1,6 @@
+# ServiceNow Integration Flow
+
+This flowchart details the process for configuring and interacting with ServiceNow from the tool.
 
 ```mermaid
 graph TD
