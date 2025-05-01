@@ -103,6 +103,8 @@ graph TD
 ```
 
 ### ServiceNow Integration Flow
+This flowchart outlines the process for integrating with ServiceNow within the application. It begins by checking if ServiceNow is configured. If not, the user is prompted to enter credentials and verify them. Upon successful verification, the configuration status is updated. Once configured, the user can input a target INC/SIR number and attempt to upload a screenshot. The system verifies the ticket via the ServiceNow API and, if found, proceeds to attach the image. If a comment is provided, it’s added as a work note. Whether successful or not, the flow concludes with an update to the status and marks the process complete. If ServiceNow isn’t configured during the upload attempt, the data is saved locally instead.
+
 
 ```mermaid
 graph TD
