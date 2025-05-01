@@ -1,3 +1,5 @@
+
+```mermaid
 graph TD
     A[Start Application] --> B{ServiceNow Configured?}
     B -- No --> C[Click Configure ServiceNow]
